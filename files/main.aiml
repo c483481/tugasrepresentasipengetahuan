@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>siapa nama kamu</pattern>
+        <template>Nama saya QuenBOT</template>
+    </category>
+    <category>
+        <pattern>
+            apa kode matakuliah representasi pengetahuan
+        </pattern>
+        <template>
+            kode mata kuliah representasi pengetahuan adalah TIK3121
+        </template>
+    </category>
+    
+    <category>
+        <pattern> * Kode Absen representasi pengetahuan </pattern>
+        <template> Kode Absen Representasi pengetahuan belum di bagikan </template>
+    </category>
+    
+    
+    <category>
+        <pattern> Kode * representasi pengetahuan </pattern>
+        <template> <srai>apa kode matakuliah representasi pengetahuan</srai> </template>
+    </category>
+    
+    <category>
+        <pattern> Apa itu Representasi Pengetahuan </pattern>
+        <template> representasi adalah sebuah mata kuliah pilihan jurusan informatika </template>
+    </category>
+    <category>
+        <pattern>
+            Beritahu Apa itu *
+        </pattern>
+        <template>
+            <srai>
+                Apa itu <star/>
+            </srai>
+        </template>
+    </category>
+</aiml>
